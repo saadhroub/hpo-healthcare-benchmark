@@ -31,7 +31,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-04-22"
 license: MIT
-repository-code: "https://github.com/<username>/hpo-healthcare-benchmark"
+repository-code: "https://github.com/saadhroub/hpo-healthcare-benchmark"
 keywords:
   - hyperparameter optimization
   - healthcare machine learning

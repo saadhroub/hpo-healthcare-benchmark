@@ -74,7 +74,7 @@ Across the 60 non-manual comparisons, GWO/PSO attain the numerically best accura
 ### 1. Environment
 
 ```bash
-git clone https://github.com/<username>/hpo-healthcare-benchmark.git
+git clone https://github.com/saadhroub/hpo-healthcare-benchmark.git
 cd hpo-healthcare-benchmark
 python3 -m venv .venv
 source .venv/bin/activate
@@ -160,7 +160,7 @@ If you use this code or results, please cite the paper:
              for Healthcare Machine Learning: From Grid Search to Swarm Intelligence},
   journal = {[target journal]},
   year    = {2026},
-  note    = {Code: https://github.com/<username>/hpo-healthcare-benchmark}
+  note    = {Code: https://github.com/saadhroub/hpo-healthcare-benchmark}
 }
 ```
 

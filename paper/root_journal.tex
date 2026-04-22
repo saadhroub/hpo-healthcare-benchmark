@@ -678,7 +678,7 @@ Beyond these hypotheses, three broader directions are worth highlighting. \emph{
 All code, cleaned data, raw per-seed outputs, summary tables, publication figures, and the \LaTeX{} source of this manuscript are publicly available at
 
 \begin{center}
-\texttt{https://github.com/<username>/hpo-healthcare-benchmark}
+\texttt{https://github.com/saadhroub/hpo-healthcare-benchmark}
 \end{center}
 
 \noindent released under the MIT license (datasets redistributed in analysis-ready form retain their UCI terms). The repository contains (i) \texttt{notebooks/hpo\_experiments.ipynb}, which reproduces all $720 = 4 \times 3 \times 6 \times 10$ optimization runs from fixed seeds $42$--$51$ and writes \texttt{results/results\_raw.csv} and \texttt{results/results\_summary.csv}; (ii) \texttt{src/make\_figures.py}, which regenerates every publication figure (Figs.~\ref{fig:time_accuracy_all}--\ref{fig:meta_analysis}) directly from the summary CSV; (iii) cleaned Pima Indians Diabetes and Indian Liver Patient CSVs with SHA256 checksums in \texttt{datasets/dataset\_manifest.json} and a \texttt{download\_datasets.py} script that reconstructs them from the original UCI sources; (iv) a pinned \texttt{requirements.txt} (Python~$3.10$, \texttt{scikit-learn}~$1.3.2$, \texttt{optuna}~$3.4$, \texttt{numpy}~$<2.0$); and (v) a \texttt{CITATION.cff} file for machine-readable citation. Dataset preprocessing uses stratified $70$/$15$/$15$ splits; continuous features are $z$-score normalized on training-set statistics. Hardware and software versions are reported in \S\ref{sec:methodology}.
