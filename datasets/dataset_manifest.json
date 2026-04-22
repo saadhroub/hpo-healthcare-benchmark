@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-04-20T21:30:35+00:00",
+  "datasets": {
+    "pima_diabetes": {
+      "rows": 768,
+      "features": 8,
+      "target": "Outcome",
+      "class_balance": {
+        "0": 500,
+        "1": 268
+      },
+      "raw_sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af",
+      "raw_file": "pima_diabetes_raw.csv",
+      "clean_file": "pima_diabetes_clean.csv",
+      "source_url": "https://api.github.com/repos/jbrownlee/Datasets/contents/pima-indians-diabetes.data.csv",
+      "original_source": "UCI ML Repository (dataset/34/diabetes)",
+      "license": "CC BY 4.0",
+      "preprocessing_notes": [
+        "Zero values in Glucose/BloodPressure/SkinThickness/Insulin/BMI replaced with NaN",
+        "NaN filled with per-column median (WARNING: leakage risk; move imputation inside CV folds in your experiment driver)"
+      ]
+    },
+    "ilpd": {
+      "rows": 583,
+      "features": 10,
+      "target": "Outcome",
+      "class_balance": {
+        "1": 416,
+        "0": 167
+      },
+      "raw_sha256": "b0deaf3f8b1923a7a8bca4c5c6bd93f0db74f571c40675b7043fe88f3f7cd4fc",
+      "raw_file": "ilpd_raw.csv",
+      "clean_file": "ilpd_clean.csv",
+      "source_url": "https://api.github.com/repos/saahil1292/indian_liver_patients/contents/indian_liver_patient.csv",
+      "original_source": "UCI ML Repository (dataset/225/ilpd)",
+      "license": "CC BY 4.0",
+      "preprocessing_notes": [
+        "Gender mapped Male->1, Female->0",
+        "AG_Ratio NaN (4 rows) imputed with median",
+        "Selector recoded: 1 (liver patient)->1 (disease), 2 (non-patient)->0; column renamed to Outcome"
+      ]
+    }
+  }
+}

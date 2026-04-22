@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the accompanying paper."
+title: "HPO for Healthcare ML: Code, Data, and Results"
+abstract: >-
+  Reproducibility artefacts for a systematic head-to-head comparison of six
+  hyperparameter optimization strategies (Manual, Grid, Random, Bayesian,
+  GWO, PSO) across three classifiers (Random Forest, SVM, Logistic Regression)
+  on four UCI healthcare benchmark datasets (Breast Cancer Wisconsin, Heart
+  Disease Statlog, Pima Indians Diabetes, Indian Liver Patient Dataset) with
+  ten-seed statistical validation.
+type: software
+authors:
+  - family-names: Hroub
+    given-names: Saadeddin
+    email: saad.hroub@gmail.com
+    affiliation: >-
+      Data Mining and Optimization Lab, Faculty of Information Science and
+      Technology, Universiti Kebangsaan Malaysia
+  - family-names: Ayob
+    given-names: Masri
+    email: masri@ukm.edu.my
+    affiliation: >-
+      Data Mining and Optimization Lab, Faculty of Information Science and
+      Technology, Universiti Kebangsaan Malaysia
+  - family-names: Khalid
+    given-names: Mohd Nor Akmal
+    email: akmal@ukm.edu.my
+    affiliation: >-
+      Data Mining and Optimization Lab, Faculty of Information Science and
+      Technology, Universiti Kebangsaan Malaysia
+version: "1.0.0"
+date-released: "2026-04-22"
+license: MIT
+repository-code: "https://github.com/<username>/hpo-healthcare-benchmark"
+keywords:
+  - hyperparameter optimization
+  - healthcare machine learning
+  - grey wolf optimizer
+  - particle swarm optimization
+  - Bayesian optimization
+  - random search
+  - random forest
+  - SVM
+  - logistic regression
+  - Wilcoxon signed-rank
+  - Holm-Bonferroni
+preferred-citation:
+  type: article
+  title: >-
+    An Experimental Comparison of Hyperparameter Optimization Methods for
+    Healthcare Machine Learning: From Grid Search to Swarm Intelligence
+  authors:
+    - family-names: Hroub
+      given-names: Saadeddin
+    - family-names: Ayob
+      given-names: Masri
+    - family-names: Khalid
+      given-names: Mohd Nor Akmal
+  year: 2026
+  journal: "[target journal]"

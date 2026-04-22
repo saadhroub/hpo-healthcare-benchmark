@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11,<1.14
+scikit-learn==1.3.2
+
+# HPO + optimization
+optuna>=3.4,<4.0
+
+# Dataset access (Heart Disease from UCI)
+ucimlrepo>=0.0.7
+
+# Figures
+matplotlib>=3.7
+
+# Notebook execution (optional, Colab/Jupyter already ships these)
+jupyter>=1.0
+ipykernel>=6.0
+
+# PDF-to-PNG rendering for PNG previews (optional)
+pdf2image>=1.17
+Pillow>=10.0

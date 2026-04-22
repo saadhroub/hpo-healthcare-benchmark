@@ -1,0 +1,78 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb.bak
+# keep notebooks themselves; ignore Colab autosaves only
+*-checkpoint.ipynb
+
+# ---- LaTeX build artefacts ----
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.lof
+paper/*.lot
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/*.nav
+paper/*.snm
+paper/*.vrb
+paper/*.run.xml
+paper/*-blx.bib
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ---- Editors / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ---- Experiment temp files ----
+# Per-block checkpoints are regenerated on every run; keep the final results/ only
+*_checkpoint.csv
+*.pkl
+*.joblib
+scratch/
+tmp/
+tmp_*/
+
+# Do NOT ignore committed result CSVs or figures
+!results/results_raw.csv
+!results/results_summary.csv
+!results/latex_tables.tex
+!figures/*.pdf
+!figures/*.png
